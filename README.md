@@ -1,1 +1,1 @@
-CASHIER APP (React, JSON, FontAwesome, React-Router)
+## CASHIER APP (React, JSON, FontAwesome, React-Router)
