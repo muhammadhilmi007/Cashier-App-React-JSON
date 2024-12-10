@@ -1,0 +1,582 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Makanan"
+    },
+    {
+      "id": "2",
+      "name": "Minuman"
+    },
+    {
+      "id": "3",
+      "name": "Snack"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "kode": "K-01",
+      "nama": "Sate Ayam",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "2",
+      "kode": "K-02",
+      "nama": "Nasi Goreng",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "nasi-goreng.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "3",
+      "kode": "K-03",
+      "nama": "Nasi Rames",
+      "harga": 18500,
+      "is_ready": true,
+      "gambar": "nasi-rames.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "4",
+      "kode": "K-04",
+      "nama": "Lontong Opor Ayam",
+      "harga": 26900,
+      "is_ready": true,
+      "gambar": "lontong-sayur.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "5",
+      "kode": "K-05",
+      "nama": "Rendang Daging",
+      "harga": 32000,
+      "is_ready": true,
+      "gambar": "rendang-daging.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "6",
+      "kode": "K-06",
+      "nama": "Gado-gado",
+      "harga": 22500,
+      "is_ready": true,
+      "gambar": "gado-gado.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "7",
+      "kode": "K-07",
+      "nama": "Soto Ayam",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "soto-ayam.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "8",
+      "kode": "K-08",
+      "nama": "Mie Goreng",
+      "harga": 16500,
+      "is_ready": true,
+      "gambar": "mie-goreng.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "9",
+      "kode": "K-09",
+      "nama": "Mie Ayam",
+      "harga": 16500,
+      "is_ready": true,
+      "gambar": "mie-ayam.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "10",
+      "kode": "M-01",
+      "nama": "Es Teh",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "es-teh.jpg",
+      "category": {
+        "id": 2,
+        "name": "Minuman"
+      }
+    },
+    {
+      "id": "11",
+      "kode": "M-02",
+      "nama": "Es Jeruk",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "es-jeruk.jpg",
+      "category": {
+        "id": 2,
+        "name": "Minuman"
+      }
+    },
+    {
+      "id": "12",
+      "kode": "M-03",
+      "nama": "Kopi",
+      "harga": 8000,
+      "is_ready": true,
+      "gambar": "es-kopi.jpg",
+      "category": {
+        "id": 2,
+        "name": "Minuman"
+      }
+    },
+    {
+      "id": "13",
+      "kode": "S-01",
+      "nama": "Kentang Goreng",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "kentang-goreng.jpg",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    },
+    {
+      "id": "14",
+      "kode": "S-02",
+      "nama": "Pisang Goreng",
+      "harga": 8000,
+      "is_ready": true,
+      "gambar": "pisang-goreng.jpg",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    },
+    {
+      "id": "15",
+      "kode": "S-03",
+      "nama": "Kue Putu",
+      "harga": 6000,
+      "is_ready": true,
+      "gambar": "kue-putu.jpg",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    },
+    {
+      "id": "16",
+      "kode": "K-10",
+      "nama": "Bakso",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "bakso.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "17",
+      "kode": "K-11",
+      "nama": "Nasi Uduk",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "nasi-uduk.jpg",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": "18",
+      "kode": "M-04",
+      "nama": "Es Campur",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "es-campur.jpg",
+      "category": {
+        "id": 2,
+        "name": "Minuman"
+      }
+    },
+    {
+      "id": "19",
+      "kode": "M-05",
+      "nama": "Jus Alpukat",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "jus-alpukat.jpg",
+      "category": {
+        "id": 2,
+        "name": "Minuman"
+      }
+    },
+    {
+      "id": "20",
+      "kode": "S-04",
+      "nama": "Risoles",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "risoles.jpg",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    },
+    {
+      "id": "21",
+      "kode": "S-05",
+      "nama": "Bakwan Jagung",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "bakwan.jpg",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    }
+  ],
+  "orderlist": [],
+  "orders": [
+    {
+      "id": "0342",
+      "total_bayar": 53500,
+      "menus": [
+        {
+          "id": "03aa",
+          "jumlah": 1,
+          "total_harga": 20000,
+          "product": {
+            "id": "1",
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          }
+        },
+        {
+          "id": "da3d",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "2",
+            "kode": "K-02",
+            "nama": "Nasi Goreng",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "nasi-goreng.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          }
+        },
+        {
+          "id": "54a1",
+          "jumlah": 1,
+          "total_harga": 18500,
+          "product": {
+            "id": "3",
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": 18500,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "745e",
+      "total_bayar": 77400,
+      "menus": [
+        {
+          "id": "f036",
+          "jumlah": 1,
+          "total_harga": 18500,
+          "product": {
+            "id": "3",
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": 18500,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          }
+        },
+        {
+          "id": "1118",
+          "jumlah": 1,
+          "total_harga": 26900,
+          "product": {
+            "id": "4",
+            "kode": "K-04",
+            "nama": "Lontong Opor Ayam",
+            "harga": 26900,
+            "is_ready": true,
+            "gambar": "lontong-sayur.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          }
+        },
+        {
+          "id": "8eb8",
+          "jumlah": 1,
+          "total_harga": 32000,
+          "product": {
+            "id": "5",
+            "kode": "K-05",
+            "nama": "Rendang Daging",
+            "harga": 32000,
+            "is_ready": true,
+            "gambar": "rendang-daging.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "6bc9",
+      "total_bayar": 55000,
+      "menus": [
+        {
+          "id": "87f7",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "2",
+            "kode": "K-02",
+            "nama": "Nasi Goreng",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "nasi-goreng.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          }
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 40000,
+          "product": {
+            "id": "1",
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          },
+          "id": "2653"
+        }
+      ]
+    },
+    {
+      "id": "2230",
+      "total_bayar": 83500,
+      "menus": [
+        {
+          "jumlah": 4,
+          "total_harga": 40000,
+          "product": {
+            "id": "13",
+            "kode": "S-01",
+            "nama": "Kentang Goreng",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "kentang-goreng.jpg",
+            "category": {
+              "id": 3,
+              "name": "Snack"
+            }
+          },
+          "id": "00e8"
+        },
+        {
+          "id": "a2b7",
+          "jumlah": 1,
+          "total_harga": 6000,
+          "product": {
+            "id": "15",
+            "kode": "S-03",
+            "nama": "Kue Putu",
+            "harga": 6000,
+            "is_ready": true,
+            "gambar": "kue-putu.jpg",
+            "category": {
+              "id": 3,
+              "name": "Snack"
+            }
+          }
+        },
+        {
+          "id": "b058",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "2",
+            "kode": "K-02",
+            "nama": "Nasi Goreng",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "nasi-goreng.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          }
+        },
+        {
+          "id": "4773",
+          "jumlah": 1,
+          "total_harga": 22500,
+          "product": {
+            "id": "6",
+            "kode": "K-06",
+            "nama": "Gado-gado",
+            "harga": 22500,
+            "is_ready": true,
+            "gambar": "gado-gado.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "0d60",
+      "total_bayar": 102000,
+      "menus": [
+        {
+          "jumlah": 4,
+          "total_harga": 80000,
+          "product": {
+            "id": "1",
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          },
+          "id": "d133"
+        },
+        {
+          "id": "910c",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "2",
+            "kode": "K-02",
+            "nama": "Nasi Goreng",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "nasi-goreng.jpg",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          }
+        },
+        {
+          "id": "18d8",
+          "jumlah": 1,
+          "total_harga": 7000,
+          "product": {
+            "id": "20",
+            "kode": "S-04",
+            "nama": "Risoles",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "risoles.jpg",
+            "category": {
+              "id": 3,
+              "name": "Snack"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
